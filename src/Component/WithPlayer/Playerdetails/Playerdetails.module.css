@@ -1,0 +1,63 @@
+.body{
+    width: 100%;
+    margin-top: 4%;
+    
+}
+.body_frame{
+    width: 100%;
+    height: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #005a9e, #ffad06);
+}
+.card{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.players_arrng{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15%;
+}
+.input_arrng{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.btn{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top:15%;
+}
+.btn:hover{
+    color: white;
+    background-color: #005a9e;
+}   
+
+@media only screen and (max-width: 600px){
+    .card{
+        width: 350px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: auto;
+    }
+    
+}

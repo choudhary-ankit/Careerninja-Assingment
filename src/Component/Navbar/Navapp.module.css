@@ -1,0 +1,46 @@
+.text_arrng{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.game_menu_arrng{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menu_arrng{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #005a9e, #ffad06);
+    color: white;
+    outline: none;
+}
+
+.small_display{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .small_display{
+        display: inline;
+    }
+    .fullscreen_display{
+        display: none ;
+    }
+    .game_menu_arrng{
+        width: 230px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+    }
+}
