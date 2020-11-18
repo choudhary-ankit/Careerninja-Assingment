@@ -1,0 +1,42 @@
+.body{
+    width: 100%;
+    margin-top: 4%;
+    
+}
+.body_frame{
+    width: 100%;
+    height: 615px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #005a9e, #ffad06);
+}
+.card{
+    width: 400px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+.content{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media only screen and (max-width: 600px){
+    .card{
+        width: 350px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: auto;
+    }
+    
+}

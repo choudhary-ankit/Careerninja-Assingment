@@ -39,10 +39,10 @@ export default class Navapp extends Component {
                         </div>
                         <div className={Style.fullscreen_display}>
                             <div className={Style.game_menu_arrng}> 
-                                <Link to="/singup" style={{textDecoration:"none", color:"white"}}>
+                                <Link to="/howtoplay" style={{textDecoration:"none", color:"white"}}>
                                     <Typography variant="p" component="h4">How to play</Typography>
                                 </Link>
-                                <Link to="/singup" style={{textDecoration:"none", color:"white"}}>
+                                <Link to="/aboutgame" style={{textDecoration:"none", color:"white"}}>
                                     <Typography variant="p" component="h4">About Game</Typography>
                                 </Link>
                             </div> 
@@ -59,10 +59,10 @@ export default class Navapp extends Component {
                                 <div>
                                     <div className={Style.menu_arrng}>
                                         <div className={Style.game_menu_arrng}> 
-                                            <Link to="/singup" style={{textDecoration:"none", color:"white"}}>
+                                            <Link to="/howtoplay" style={{textDecoration:"none", color:"white"}}>
                                                 <Typography variant="p" component="h4">How to play</Typography>
                                             </Link>
-                                            <Link to="/singup" style={{textDecoration:"none", color:"white"}}>
+                                            <Link to="/aboutgame" style={{textDecoration:"none", color:"white"}}>
                                                 <Typography variant="p" component="h4">About Game</Typography>
                                             </Link>
                                         </div>

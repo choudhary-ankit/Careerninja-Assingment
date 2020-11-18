@@ -9,6 +9,8 @@ import Gamepage from './Component/WithPlayer/GameBoard/Gamepage'
 import GameboardAi from './Component/WithAi/GameboardAI/GameboardAi'
 import PlayerdetailsAi from './Component/WithAi/Playerdetails/PlayerdetailsAi';
 import SelectingsideAi from './Component/WithAi/ChoosingPlayerSide/SelectingsideAi';
+import About from './Component/Aboutgame/About';
+import Howplay from './Component/Howtoplay/Howplay';
 
 export default class App extends Component {
   render() {
@@ -16,6 +18,8 @@ export default class App extends Component {
       <div>
         <Navapp/>
         <Route path ="/" exact component={Homepage}></Route>
+        <Route path ="/aboutgame" exact component={About}></Route>
+        <Route path ="/howtoplay" exact component={Howplay}></Route>
         <Route path ="/playingmode" exact component={Playingmode}></Route>
         <Route path ="/playerdetails" exact component={Playerdetails}></Route>
         <Route path ="/selectingside" exact component={Selectingside}></Route>
