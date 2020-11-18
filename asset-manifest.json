@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Careerninja-Assingment/static/css/main.e9eda930.chunk.css",
+    "main.js": "/Careerninja-Assingment/static/js/main.4a9ef76f.chunk.js",
+    "main.js.map": "/Careerninja-Assingment/static/js/main.4a9ef76f.chunk.js.map",
+    "runtime-main.js": "/Careerninja-Assingment/static/js/runtime-main.e7cb8dbb.js",
+    "runtime-main.js.map": "/Careerninja-Assingment/static/js/runtime-main.e7cb8dbb.js.map",
+    "static/js/2.69e79333.chunk.js": "/Careerninja-Assingment/static/js/2.69e79333.chunk.js",
+    "static/js/2.69e79333.chunk.js.map": "/Careerninja-Assingment/static/js/2.69e79333.chunk.js.map",
+    "static/js/3.9c985957.chunk.js": "/Careerninja-Assingment/static/js/3.9c985957.chunk.js",
+    "static/js/3.9c985957.chunk.js.map": "/Careerninja-Assingment/static/js/3.9c985957.chunk.js.map",
+    "index.html": "/Careerninja-Assingment/index.html",
+    "static/css/main.e9eda930.chunk.css.map": "/Careerninja-Assingment/static/css/main.e9eda930.chunk.css.map",
+    "static/js/2.69e79333.chunk.js.LICENSE.txt": "/Careerninja-Assingment/static/js/2.69e79333.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7cb8dbb.js",
+    "static/js/2.69e79333.chunk.js",
+    "static/css/main.e9eda930.chunk.css",
+    "static/js/main.4a9ef76f.chunk.js"
+  ]
+}
