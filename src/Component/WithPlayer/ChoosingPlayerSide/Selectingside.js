@@ -106,7 +106,7 @@ export default class Selectingside extends Component {
                             />
                         </div>
                         <div>
-                            <button className={Style.btn_friend} onClick={this.continue}>continue</button>  
+                            <button className={Style.btn} onClick={this.continue}>continue</button>  
                         </div>
                     </Card>
                 </div>
